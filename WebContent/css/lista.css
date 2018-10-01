@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial;
+	background: #fff;
+	width: 100%;
+  background-image: url('../img/fundo1.jpg');
+}
+.Logo{
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.Logo h1{
+	font-size: 30px;
+	margin-bottom: 20px;
+	text-shadow: 1px 1px 3px #300;
+}
+
+.cabecalho {
+	width: 100%;
+	min-height: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+.listagem {
+	width: 90%;
+	height: 300px;
+	background-color: #330000;
+	margin: 0 auto;
+	background-size: 100%;
+	border-radius: 10px;
+	box-shadow: 2px 2px 20px black;
+}
+
+.bloco{
+  width: 90%;
+  margin: auto;
+}
+#lista-centro{
+
+}
+
+.listaNome{
+  width: 25%;
+  position: relative;
+  float: left;
+  text-align: center;
+  color: White;
+	text-transform: uppercase;
+	padding-top: 15px;
+
+}
+.listaSobrenome{
+  width: 25%;
+  position: relative;
+  float: left;
+  text-align: center;
+  color: White;
+	text-transform: uppercase;
+	padding-top: 15px;
+}
+.listaTelefone{
+  width: 25%;
+  position: relative;
+  float: left;
+  text-align: center;
+  color: White;
+	text-transform: uppercase;
+	padding-top: 15px;
+}
+.listaCPF{
+  width: 25%;
+  position: relative;
+  float: left;
+  text-align: center;
+  color: White;
+	text-transform: uppercase;
+	padding-top: 15px;
+}
+
+#idParagrafo1, #idParagrafo2, #idParagrafo3, #idParagrafo4{
+  background-color: black;
+}

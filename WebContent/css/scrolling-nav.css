@@ -1,0 +1,93 @@
+
+header {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    width: 100%;
+  }
+}
+
+section {
+border-color: #0CC;
+  padding: 140px 0;
+}
+footer{
+    background-color: #0CC;
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    border:solid 5px;
+    font-family: 'Poiret One', cursive;
+}
+.logo img{
+
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+#services{
+  background-color: #0CC;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+  border:solid 5px;
+  font-family: 'Poiret One', cursive;
+}
+#contact{
+  color: #0CC;
+  font-family: 'Poiret One', cursive;
+}
+#contact P{
+  color: black;
+    font-family: 'Poiret One', cursive;
+}
+#about h2{
+  color: #0CC;
+  font-family: 'Poiret One', cursive;
+}
+#about li{
+  color: black;
+  font-family: 'Poiret One', cursive;
+}
+#about p{
+  font-family: 'Poiret One', cursive;
+}
+#login{
+  border: 1px solid white transparent;
+  border: solid 1px ;
+  border-radius: 5px 5px 5px 5px;
+  padding: 5px;
+  font-family: 'Poiret One', cursive;
+}
+#login:hover{
+  background-color: white;
+  color: #0CC;
+
+}
+#mainNav{
+  border:solid 5px;
+  border-color: white;
+  border-radius: 0px 0px 10px 10px;
+  border-top: 10px;
+}
+#texto{
+  border: 1px solid white transparent;
+  border: solid 1px ;
+  border-radius: 5px 5px 5px 5px;
+  padding: 5px;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+  font-family: 'Poiret One', cursive;
+}
+#texto:hover{
+      background-color:#fff;
+      color: #0CC;
+}
+.titulo{
+  text-align: center;
+  color: #0CC;
+}

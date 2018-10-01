@@ -1,0 +1,344 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial;
+	background: white;
+}
+
+#cabecalho {
+	width: 100%;
+	min-height: 200px;
+	/*background: #990000;*/
+	margin: 0 auto;
+	text-align: center;
+}
+
+.publicidade {
+	width: 90%;
+	height: 900px;
+	background-color:  #0CC;
+	margin: 0 auto;
+	background-size: 100%;
+	box-shadow: 2px 2px 4px black;
+	border-radius: 10px;
+
+}
+
+.titulo{
+	width: 90%;
+	margin: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.titulo h1{
+	text-transform: uppercase;
+	text-shadow: 1px 1px black;
+	color: white;
+}
+
+.imgpredio {
+	width: 40%;
+	margin: 25px;
+	margin-top: 30px;
+	position: relative;
+	float: left;
+	text-align: center;
+
+}
+
+.imgpredio img{
+	width: 400px;
+	height: 350px;
+	box-shadow: 2px 2px 4px black;
+	border-radius: 6px;
+}
+
+.conteudo{
+	width: 90%;
+	position: relative;
+	float: left;
+	margin: 50px;
+	text-align: justify;
+}
+
+.conteudo p{
+	font-size: 21px;
+	color: white;
+}
+
+.descricao {
+	width: 50%;
+	height: 300px;
+	margin: 20px;
+	margin-top: 35px;
+	float: left;
+	text-align: center;
+}
+
+.descricao h2{
+	text-transform:uppercase;
+}
+
+.descricao p{
+	margin-top: 10px;
+}
+
+
+.fundobranco {
+	background:#fff;
+	padding: 10px;
+	padding-right: 10px;
+	color:  #0CC;
+}
+
+.fundopreto {
+	background: #000;
+	color: white;
+	padding: 10px 20px 10px 20px;
+
+}
+
+/*.leiamais {
+	color: #fff;
+	background: #660000;
+	padding: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: ;
+}*/
+
+
+
+
+
+#logo {
+
+}
+
+.menu {
+	width: 15%;
+	background-color: white;
+	margin: 0 auto; /* Centralizar*/
+	text-align: center;
+	border-radius: 10px;
+	border: 3px solid #0CC;
+	 cursor: pointer;
+
+}
+
+.menu:hover{
+	background-color: #b3defc;
+  color: white;
+	transition: all 0.6s;
+}
+
+.menu:active{
+	background-color: #990000;
+  color: white;
+}
+
+.menu ul {
+		list-style: none;
+
+}
+
+.menu ul li {
+	display: inline-block;
+	width: 100%;
+	align-items: center;
+}
+
+.menu a {
+	padding: auto;
+	padding: 15px;
+	text-align: center;
+  display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #0CC;
+}
+
+
+.destaque {
+	text-align: center;
+	margin: 0 auto;
+	clear: both;
+
+}
+
+.imgservico{
+	width: 30%;
+	margin: 0 auto;
+	position: relative;
+	float: left;
+	text-align: center;
+	padding: 1.666%;
+}
+
+
+.imgservico img {
+		border: 2px solid black;
+		width: 70%;
+		height: 125px;
+
+}
+
+.imgservico img p{
+	position: relative;
+	float: left;
+}
+
+.voltar{
+	position: relative;
+	float: right;
+
+}
+
+.voltar button {
+  text-transform: uppercase;
+  outline: 0;
+  background: white;
+  width: 100px;;
+  padding: 15px;
+  color: black;
+  font-size: 12px;
+  cursor: pointer;
+	border: 3px solid #330000;
+	border-radius: 10px 0 0 0;
+}
+.voltar button:hover{
+	background-color: #b3defc;
+  color: white;
+}
+
+.voltar button:active{
+	background-color: #b3defc;
+  color: white;
+}
+
+
+.rodape {
+	width: 100%;
+	height: 120px;
+	background:  #0CC;
+	clear: both;
+}
+
+.rodapeText p {
+	padding-top: 50px;
+	color: #fff;
+}
+
+.rodapeText{
+		width: 65%;
+		margin: 0 auto;
+		position: relative;
+		float: left;
+		text-align: center;
+}
+
+.rodapeImg img {
+	width: 35px;
+	height: 35px;
+}
+
+.rodapeImg{
+	width: 30%;
+	position: relative;
+	margin: auto;
+	padding-top: 40px;
+	padding-right: 20px;
+	float: right;
+	text-align: center;
+}
+
+@media screen and (max-width: 1100px){
+	body{
+		width: 1100px;
+	}
+
+	.publicidade{
+		width: 1000px;
+		height: 900px;
+		text-align: center;
+	}
+	.imgpredio {
+
+		text-align: center;
+
+	}
+	.descricao {
+
+		text-align: center;
+	}
+	.conteudo{
+		width: 90%;
+		text-align: justify;
+	}
+
+
+@media screen and (max-width: 620px){
+	body{
+		width: 600px;
+	}
+
+	.publicidade{
+		width: 550px;
+		height: 1300px;
+		text-align: center;
+	}
+	.imgpredio {
+		width: 90%;
+		margin: 25px;
+		margin-top: 30px;
+		position: none;
+		float: none;
+		text-align: center;
+
+	}
+	.descricao {
+		width: 90%;
+		height: 250px;
+		margin: 25px;
+		margin-top: 30px;
+		position: none;
+		float: none;
+		text-align: center;
+	}
+	.conteudo{
+		width: 90%;
+		position: none;
+		float: none;
+		margin: auto;
+		text-align: center;
+		text-align: justify;
+	}
+	.voltar button{
+		width: 600px;
+		position: none;
+		float: none;
+		border-radius: 10px 10px 0 0;
+	}
+	.imgservico{
+		width: 90%;
+	}
+
+	.imgservico img {
+			border: 2px solid black;
+			width: 55%;
+			height: 140px;
+
+	}
+
+}
+
+
+
+
+
+}

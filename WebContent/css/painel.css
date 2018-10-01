@@ -1,0 +1,137 @@
+body {
+	background-color: #0CC;
+}
+
+.borda{
+	margin: 0 auto;	
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 25px;
+	width:65%;
+	height: 700px;
+	position: relative;
+	float: left;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+.painel {
+	margin: 0 auto;
+	text-align: center;
+	width:90%;
+	margin-top: 50px;
+	background-color: #0CC;
+	height: 600px;
+	overflow: auto;
+	border-radius: 10px;
+}
+
+.painel::-webkit-scrollbar-traxk {
+  background-color: lightgrey;
+}
+
+.painel::-webkit-scrollbar {
+    width: 15px;
+    background: lightgrey;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.painel::-webkit-scrollbar-thumb {
+    background: lightgrey;
+}
+
+.tipos {
+	width: 90%;
+	margin: 0 auto;
+	text-aling: center;
+}
+
+.bloco {
+	width: 33.3333%;
+	background-color: #fff;
+	position: relative;
+  	float: left;
+}
+
+.registro {
+	width:80%;
+	background-color: lightgrey;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.registro input {
+	width: 150px;
+	margin: 5px;
+	border: 1px solid #0CC;
+}
+
+.registro label {
+	padding: 5px;
+}
+
+.registro select {
+	margin: 5px;
+	width: 150px;
+	border: 1px solid #0CC;
+}
+
+.registro textarea {
+	border: 1px solid #0CC;
+	width: 200px;
+	height: 100px;
+}
+
+.registro button {
+  background-color: white;
+  color: #0CC;
+  width: 150px;
+  height: 40px;
+  margin-top: 15px;
+  border: 1px solid #0CC;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.campos {
+  width: 30%;
+  background-color: #fff;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  text-align: center;
+}
+
+.tipos button {
+	background: #fff;
+	font-size: 16px;
+	color: #0CC;
+	margin-top: 20px;
+  	width: 90%;
+  	height: 40px;
+  	border: 1px solid #0CC;
+  	border-radius: 10px;
+  	text-transform: uppercase;
+}
+
+.tipos button:hover {
+	background: #b3defc;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 800px){
+	.borda{
+		width:710px;
+	}
+	.campos {
+		width: 760px;
+		position: relative;
+		float: left;
+		background-color: white;
+		border-radius: 10px;
+	}
+
+
+}
