@@ -56,7 +56,7 @@
       </div>
 
 
-    	    <button type="submit" name="enviar" value="ServletFuncionario"  onclick="valida_form_funcionario()">Enviar</button>
+    	    <button type="submit" name="enviar" value="CadastroFuncionario"  onclick="valida_form_funcionario()">Enviar</button>
 
         </form>
         <a href="index.html"><button>Voltar</button></a>

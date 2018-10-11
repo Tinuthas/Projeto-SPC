@@ -11,6 +11,7 @@
  <link rel = "shortcut icon" type = "imagem/x-icon" href = "img/beans.png"/>
 </head>
 <body>
+	<%@include file="sessionless.jsp" %>
     <div class="menu">
     <div class="opcoes">
     	
@@ -18,36 +19,36 @@
     	
       <c:if test="${not empty MORADOR}">
       
-      	<form action="servico" method="post">
-      	<button type="submit" name="enviar" value="servico">Serviços</button>
+      	<form action="controller" method="post">
+      	<button type="submit" name="enviar" value="BuscaServico">Serviços</button>
       	</form>
-      	<form action="vinculos" method="post">
-      	<button type="submit" name="enviar" value="ServletVinculo">Vínculos</button>
+      	<form action="controller" method="post">
+      	<button type="submit" name="enviar" value="BuscaVinculo">Vínculos</button>
       	</form>
       </c:if>
       
       <c:if test="${not empty FUNCIONARIO}">
       
-      <form action="pesquisarMorador" method="post">
-          <button type="submit" name="enviar" value="ServletPesquisarMorador">Pesquisar Morador</button>
+      <form action="controller" method="post">
+          <button type="submit" name="enviar" value="PesquisarMorador">Pesquisar Morador</button>
       </form>
       
       </c:if> 
       
-      <form action="encomenda" method="post">
-          <button type="submit" name="enviar" value="encomenda">Encomendas</button>
+      <form action="controller" method="post">
+          <button type="submit" name="enviar" value="BuscaEncomenda">Encomendas</button>
       </form>
       
       
-      <form action="comunicado" method="post">
-         <button type="submit" name="enviar" value="comunicado">Comunicados</button>
+      <form action="controller" method="post">
+         <button type="submit" name="enviar" value="BuscaComunicado">Comunicados</button>
       </form>
       
       
       <a href="index.html"><button>Informações</button></a>
       <br>  
-      <form method="post" action="logout">
-		 <button type="submit" name="enviar" value="ServletLogout">Voltar</button>
+      <form method="post" action="controller">
+		 <button type="submit" name="enviar" value="Logout">Voltar</button>
 	  </form>
     </div>
  	</div>
@@ -67,8 +68,10 @@
 			<input type="text" id="question" name="question" class="field"
 				placeholder="Digite" />
 			<button id="sendQuestion">Enviar</button>
-			<a href="entrada.html"><button>Voltar</button></a>
 		</form>
+		<form method="post" action="controller">
+		 	<button type="submit" name="enviar" value="Logout">Voltar</button>
+	  	</form>
 		</div>
 	</div>
 	</div>

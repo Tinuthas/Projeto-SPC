@@ -10,6 +10,7 @@
 <title>Vinculos</title>
 </head>
 <body>
+	<%@include file="sessionless.jsp" %>
 	<div class="borda">
 		<div class="painel">
 			<div class="tipos" >
@@ -44,7 +45,7 @@
 				</div>
 			</c:if>
 			<form method="post" action="controller">
-				<button type="submit" name="enviar" value="ServletRetorno">Voltar</button>
+				<button type="submit" name="enviar" value="Retorno">Voltar</button>
 			</form>
 			</div>
 		</div>
@@ -55,7 +56,7 @@
 			<h1>Cadastrar Vinculo</h1>			
 			
 			<div class="registro">
-			<form method="post" action="cadastroVinculo" class="form-registro">
+			<form method="post" action="controller" class="form-registro">
 				<br>
 				<label for="idNome">Nome:</label><br>
 				<input id="idNome" type="text" name="nome"><br>	
@@ -70,7 +71,7 @@
 				<label for="idLogradouro">Rua:</label><br>
 				<input id="idLogradouro" type="text" name="Logradouro"><br>		
 				
-				<button type="submit" name="enviar" value="ServletCadastrarVinculo">Enviar</button>
+				<button type="submit" name="enviar" value="CadastroVinculo">Enviar</button>
 			</form>
 			<div class="mensagem">
 				<c:if test="${not empty vinculoRegistrado }"><p>Vinculo Cadastrado!</p></c:if>

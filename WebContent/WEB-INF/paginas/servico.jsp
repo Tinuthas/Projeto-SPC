@@ -9,6 +9,7 @@
 <title>Painel de Serviços</title>
 </head>
 <body>
+	<%@include file="sessionless.jsp" %>
 	<div class="borda">
 		<div class="painel">
 			<div class="tipos" >
@@ -43,7 +44,7 @@
 				</div>
 			</c:if>
 			<form method="post" action="controller">
-				<button type="submit" name="enviar" value="ServletRetorno">Voltar</button>
+				<button type="submit" name="enviar" value="Retorno">Voltar</button>
 			</form>
 			</div>
 		</div>
@@ -54,7 +55,7 @@
 			<h1>Agendar Serviço</h1>			
 			
 			<div class="registro">
-			<form method="post" action="agendarServ" class="form-registro">
+			<form method="post" action="controller" class="form-registro">
 				<br>
 				<label for="idDataInicio">Data de Início:</label><br>
 				<input id="idDataInicio" type="text" name="dataInicio"><br>
@@ -72,7 +73,7 @@
           			<option value="5">Brinquedoteca</option>
           			<option value="6">Sauna</option>      			
 				</select><br>
-				<button type="submit" name="enviar" value="ServletRegistroEnco">Enviar</button>
+				<button type="submit" name="enviar" value="AgendarServico">Enviar</button>
 			</form>
 			</div>
 		</div>

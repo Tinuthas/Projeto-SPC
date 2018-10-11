@@ -10,6 +10,7 @@
 <title>Painel de Encomenda</title>
 </head>
 <body>
+	<%@include file="sessionless.jsp" %>
 	<div class="borda">
 		<div class="painel">
 			<div class="tipos" >
@@ -47,7 +48,7 @@
 				</div>
 			</c:if>
 			<form method="post" action="controller">
-				<button type="submit" name="enviar" value="ServletRetorno">Voltar</button>
+				<button type="submit" name="enviar" value="Retorno">Voltar</button>
 			</form>
 			</div>
 		</div>
@@ -60,7 +61,7 @@
 			<h1>Registrar Encomendas</h1>			
 			
 			<div class="registro">
-			<form method="post" action="registrarEnco" class="form-registro">
+			<form method="post" action="controller" class="form-registro">
 				<br>
 				<label for="idCodigo">Código Morador:</label><br>
 				<input id="idCodigo" type="text" name="codigo"><br>
@@ -71,7 +72,7 @@
           			<option value="2">Cartas</option>
           			<option value="3">Sedex</option>     			
 				</select><br>
-				<button type="submit" name="enviar" value="ServletRegistroEnco">Enviar</button>
+				<button type="submit" name="enviar" value="RegistroEncomenda">Enviar</button>
 			</form>
 			</div>
 		</c:if>

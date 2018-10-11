@@ -80,7 +80,7 @@
         </div>
       </div>
 
-      <button type="submit" name="enviar" value="ServletCondominio"  onclick="valida_form_condominio ()">Enviar</button>
+      <button type="submit" name="enviar" value="CadastroCondominio"  onclick="valida_form_condominio ()">Enviar</button>
 
       </form>
 

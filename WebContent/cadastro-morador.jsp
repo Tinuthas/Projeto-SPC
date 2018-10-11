@@ -55,7 +55,7 @@
         </div>
       </div>
 
-          <button type=submit name="enviar" value="ServletMorador" onclick="valida_form_morador()">Enviar</button>
+          <button type=submit name="enviar" value="CadastroMorador" onclick="valida_form_morador()">Enviar</button>
 
         </form>
         <a href="index.html"><button>Voltar</button></a>

@@ -10,13 +10,14 @@
 <title>Sucesso</title>
 </head>
 <body>
+	<%@include file="sessionless.jsp" %>
 	<div class="borda">
 		<div class="painel">
 			<div>
 			<h1>Sucesso!</h1>
 			<h2>Seus dados foram registrados corretamente</h2>
 			<form method="post" action="controller">
-			<button type="submit" name="enviar" value="ServletRetorno">Voltar</button>
+			<button type="submit" name="enviar" value="Retorno">Voltar</button>
 			</form>
 			</div>						
 		</div>

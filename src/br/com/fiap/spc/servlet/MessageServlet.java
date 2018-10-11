@@ -204,7 +204,7 @@ public class MessageServlet extends HttpServlet{
 				if(dataNova != null && hora != null) {
 					serv.setInicio(dataNova +" "+ hora.substring(0, 5));
 					serv.setMorador(m);
-					if(serv.getMorador() == null) {
+					if(m == null) {
 						String mandar = "[\"Você não tem permissão de morador!\"]";
 						resp.getWriter().write(mandar);
 

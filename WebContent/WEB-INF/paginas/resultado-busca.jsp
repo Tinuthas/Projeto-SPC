@@ -44,7 +44,7 @@
 				</div>
 			</c:if>
 			<form method="post" action="controller">
-				<button type="submit" name="enviar" value="ServletRetorno">Voltar</button>
+				<button type="submit" name="enviar" value="Retorno">Voltar</button>
 			</form>
 			</div>
 		</div>
@@ -55,11 +55,11 @@
 			<h1>Pesquisar Morador</h1>			
 			
 			<div class="registro">
-			<form method="post" action="pesquisarMorador" class="form-registro">
+			<form method="post" action="controller" class="form-registro">
 				<br>
-				<label for="idPesquisa">Nome Morador:</label><br>
+				<label for="idPesquisa">Pesquisar Morador:</label><br>
 				<input id="idPesquisa" type="search" name="pesquisa"><br>	
-				<button type="submit" name="enviar" value="ServletPesquisarMorador">Enviar</button>
+				<button type="submit" name="enviar" value="PesquisarMorador">Enviar</button>
 			</form>
 			</div>
 		</div>

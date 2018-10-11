@@ -10,6 +10,7 @@
 <title>Painel de Comunicados</title>
 </head>
 <body>
+	<%@include file="sessionless.jsp" %>
 	<div class="borda">
 		<div class="painel">
 			<div class="tipos" >
@@ -44,7 +45,7 @@
 				</div>
 			</c:if>
 			<form method="post" action="controller">
-				<button type="submit" name="enviar" value="ServletRetorno">Voltar</button>
+				<button type="submit" name="enviar" value="Retorno">Voltar</button>
 			</form>
 			</div>
 		</div>
@@ -55,7 +56,7 @@
 			<h1>Escrever Comunicados</h1>			
 			
 			<div class="registro">
-			<form method="post" action="escreverComu" class="form-registro">
+			<form method="post" action="controller" class="form-registro">
 				<br>
 				<label for="idAssunto">Assunto:</label><br>
 				<input id="idAssunto" type="text" name="assunto"><br>
@@ -63,7 +64,7 @@
 				<input id="idLocal" type="text" name="local"><br>
 				<label for="idDescricao">Descrição:</label><br>
 				<textarea id="idDescricao" maxlength="1000" name="descricao"></textarea><br>			
-				<button type="submit" name="enviar" value="ServletRegistroEnco">Enviar</button>
+				<button type="submit" name="enviar" value="EscreverComunicado">Enviar</button>
 			</form>
 			</div>
 		</div>

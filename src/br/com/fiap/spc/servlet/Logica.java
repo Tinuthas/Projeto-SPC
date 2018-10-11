@@ -5,6 +5,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public interface Logica {
 	
+	
 	String redireciona(HttpServletRequest req, HttpServletResponse resp) throws Exception;
 	
 }
